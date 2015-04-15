@@ -41,19 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adresse.cs" />
-    <Compile Include="Cabane.cs" />
-    <Compile Include="Club.cs" />
-    <Compile Include="Escale.cs" />
-    <Compile Include="Membre.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Adresse.cs" />
+    <Compile Include="Classes\Cabane.cs" />
+    <Compile Include="Classes\Club.cs" />
+    <Compile Include="Classes\Escale.cs" />
+    <Compile Include="Classes\Membre.cs" />
+    <Compile Include="Demo\Program.cs" />
+    <Compile Include="Classes\GestionSorties.cs" />
+    <Compile Include="Classes\EtatInscription.cs" />
+    <Compile Include="Classes\Inscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sortie.cs" />
-    <Compile Include="TypeMembre.cs" />
+    <Compile Include="Classes\Sortie.cs" />
+    <Compile Include="Classes\Responsable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram.cd" />
+    <None Include="Diagrammes\ClassDiagram.cd" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
