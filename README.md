@@ -1,4 +1,4 @@
-﻿# Cahier des charges
+# Cahier des charges
 
 Ce système permet de gérer les sorties des clubs de montagne (type CAS).
 
@@ -20,28 +20,27 @@ Dès qu'une cabane dans une sortie est pleine (nb inscrits sortie == nb max pers
 
 ## Un organisateur peut créer une sortie
 
-Une personne peut créer une sortie pour un club dans lequel elle est administrateur (organisateur).
+Un membre peut créer une sortie pour un club dans lequel elle est responsable (organisateur).
 
-Lors de la création d'une sortie, la personne entrera la date et le lieux de départ de la sortie.
+Lors de la création d'une sortie, le membre entrera la date et le lieux de départ de la sortie.
 
 Elle ajoutera ensuite des cabanes à la sortie, en indiquant pour chaque cabane la date et l'heure d'arrivée et de départ.
 
-## Une personne peut s'inscrire
-
-Une personne peut s'inscrire dans le système en entrant ses informations personnelles ainsi qu'un nom d'utilisateur/mot de passe. Si le nopm d'utilisateur est déjà pris, l'utilisateur ne peut pas s'inscrire (message d'erreur).
+Un organisateur valide l'inscription d'un membre.
 
 ## Une personne peut s'inscrire à un club
 
-Une fois inscrite dans le système, une personne peut s'inscrire à un club.
+Un membre peut intégrer un ou plusieurs clubs.
 
-Une fois envoyée, son inscription est ensuite placée dans le système en mode "en attente".
-
-Un organisateur doit ensuite venir la valider afin qu'elle soit effective et que la personne ait accès aux sorties du club.
 
 ## Un membre d'un club peut lister les sorties
 
-Un membre dont l'inscription a été validée peut lister les sorties des clubs auxquel il est inscrit.
+Un membre peut lister les sorties des clubs auxquel il est inscrit.
+
+Un membre peut vérifier le nombre de places disponibles pour une sortie donnée.
 
 Pour chaque sortie, on vérifie si les cabanes de la sortie ne sont pas pleines et on calcul le prix final avant de les afficher.
 
 ## Un membre d'un club peut s'inscrire à une sortie
+
+Un membre peut s'inscrire à une sortie
